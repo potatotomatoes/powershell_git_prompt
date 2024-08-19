@@ -9,8 +9,8 @@
   - [其他](#其他)
 
 ## 前言
-鉴于在powershell上命令`git status`频繁运行，以及oh-posh配置的占用过大（虽然其也能配置git状态集成），因此为了git状态在powershell上自己集成，写了以下配置文件。
-文件内容部分参考文章 https://www.lfhacks.com/tech/powershell-prompt-git-branch， 在此感谢作者
+鉴于在powershell上命令`git status`频繁运行，而oh-posh配置的占用过大（虽然其也能配置git状态集成），因此在Powershell上自己配置了git状态集成，写了以下配置文件。
+文件内容部分参考文章 **https://www.lfhacks.com/tech/powershell-prompt-git-branch， 在此感谢作者**
 ## 配置文件链接
 gitee: 
 github:
