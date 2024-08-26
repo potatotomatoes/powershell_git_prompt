@@ -65,9 +65,10 @@ $emoji = [char]9889
 
 ## 如何使用配置文件
 1. `$PROFILE`是一个设置powershell的文件，如果没有创建`$PROFILE`文件，可以在Powershell中使用`notepad $PROFILE`创建`$PROFILE`文件，把prompt.ps1文件的内容复制粘贴到新建的$PROFILE文件中
-2. 保存完该文件后，在`$PROFILE`所在路径中用powershell中执行命令`.\$PROFILE`即可成功
+2. 保存完该文件后，在`$PROFILE`文件所在路径中用powershell中执行命令`.\$PROFILE`即可成功
+3. 在执行完上一个命令后，可能需要关闭powershell并重新打开一次才能看到自己自定义的配置
 ---
-`$PROFILE`相关信息可参考[配置文件简介](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.4)
+`$PROFILE`相关信息可参考微软官方的[配置文件简介](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.4)
 
 ## 其他
 文件内容部分参考文章 **[Powershell 在提示符中显示 git 分支信息](https://www.lfhacks.com/tech/powershell-prompt-git-branch)， 在此感谢作者**
